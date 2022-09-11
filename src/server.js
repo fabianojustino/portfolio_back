@@ -3,6 +3,7 @@ require('dotenv').config();
 
 const port = process.env.PORT || 3001;
 
+// não remova esse endpoint
 app.get('/', (_request, response) => {
   response.send();
 });
